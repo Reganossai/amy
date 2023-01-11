@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 import emailjs from 'emailjs-com';
-import CV from './assets/resumrega.pdf';
+import CV from './assets/cv.pdf';
 import Footer from './Footer';
 
 
