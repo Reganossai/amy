@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 const Testimonials = () =>{
 return(
-	<div className="">
+	<div className="mopp">
 	<div className="contact-header">
 	<Navbar/>
 	</div>																

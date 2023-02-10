@@ -15,7 +15,7 @@ const Contact = () =>{
 e.target.reset()
  }
 return(
-	<div className="">
+	<div className="pirlo">
 	<div className="contact-header">
 	<Navbar/>
 	</div>
@@ -35,11 +35,12 @@ return(
 <div className="subject-form">
 <input type="text" className="form-control" placeholder="Subject" name="subject"/>
 </div>
-<div className="message-form">
+<div className="message-formmm">
 <textarea className="form-control" id="" cols="14" rows="4" placeholder="Your message" name="message"></textarea>
 </div>
+<div className="boro">
 <input type="submit" className="submit-btn" value="send Message"></input>
-
+</div>
 </div>
 </form>
 </div>

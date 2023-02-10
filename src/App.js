@@ -1,14 +1,14 @@
 import { BrowserRouter , Route, Switch } from 'react-router-dom';
 import './App.css'; 
-import Merge from './Merge';
-import Blogs from './Thoughts';
-import First from './First';
-import Second from './Second';
-import Third from './Third';
-import Fourth from './Fourth';
-import Fifth from './Fifth';
-import Contact from './Contact';
-import Testimonials from './Testimonials';
+import Merge from './components/Merge';
+import Blogs from './components/Thoughts';
+import First from './components/First';
+import Second from './components/Second';
+import Third from './components/Third';
+import Fourth from './components/Fourth';
+import Fifth from './components/Fifth';
+import Contact from './components/Contact';
+import Testimonials from './components/Testimonials';
 
 
 function App() {

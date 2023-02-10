@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 
+
 .navbar{
 	height: 80px;
 	background-color: #E39FF6;
@@ -109,7 +110,8 @@ hr{
 .hell h1{
 	color: black;
 	font-size: 15px;
-	margin: 5px 2px;
+	font-weight: 600;
+	margin: 15px 2px;
 }
 
 .hell a{
@@ -122,6 +124,7 @@ hr{
 	margin: 5px 70px;
 	border-radius: 10px;
 }
+
 
 .lim{
 	margin: 2px 50px;
@@ -163,6 +166,45 @@ hr{
 .first-content-contact h1{
 	text-align: center;
 	font-size: 25px;
+	margin: 20px 0px
+}
+
+.first-content-contact p{
+	text-align: center;
+}
+
+.first-content-contact input[type=text]{
+	margin: 20px 0px 0px 40px;
+	width: 1500px;
+	border-radius: 15px;
+}
+
+.first-content-contact input[type=text]:hover{
+	background-color: #F0F0F0;
+	color: black;
+	font-weight: 600;
+}
+
+.first-content-contact input[type=email]{
+	margin: 20px 0px 0px 40px;
+	width: 1500px;
+	border-radius: 15px;
+}
+
+.first-content-contact input[type=email]:hover{
+	background-color: #F0F0F0;
+	color: black;
+	font-weight: 600;
+}
+
+
+.message-formmm{
+	margin: 20px 0px 0px 40px;
+	width: 1500px;
+}
+
+.boro{
+	margin: 20px 0px 0px 710px;
 }
 
 .first-content p{
@@ -253,6 +295,10 @@ hr{
  color: black;
 }
 
+.linkss h6{
+ font-weight: 600;
+}
+
 .linkss a{
 margin: 10px 0;
 color: lightblue;
@@ -265,8 +311,9 @@ color: lightblue;
 .submit-btn{
 	background-color: black;
 	color:lightblue;
-	padding: 5px 5px;
-	border-radius: 10px;
+	padding: 10px 10px;
+	border-radius: 15px;
+	width: 200px;
 
 }
 
@@ -313,7 +360,7 @@ color: lightblue;
 
 .momo{
 	position: absolute;
-	top: 640px;
+	top: 670px;
 	left:800px;
 }
 
@@ -326,6 +373,7 @@ color: lightblue;
 }
 
 .cob{
+	overflow: hidden;
 	display: flex;
 	flex-direction: row;
 }
@@ -517,16 +565,44 @@ color: lightblue;
 
 nav{
 	width: 390px;
+	overflow-x: hidden;
+}
+
+.mop{
+	max-height: 2000px;
+	height: 2000px;
+}
+
+.mopp{
+	max-height: 2000px;
+	height: 2000px;
+}
+
+.moppp{
+	max-height: 2000px;
+	height: 2000px;
+}
+
+.mopppp{
+	max-height: 2000px;
+	height: 2000px;
+}
+
+.moppppp{
+	max-height: 2000px;
+	height: 2000px;
 }
 
 .navbar{
 	background-color: #E39FF6;
+	overflow: hidden;
+	height: 80px;
 }
 
 .navbar img{
-	width:50px;
+	width:70px;
 	position: absolute;
-	top: 18px;
+	top: 5px;
 	left:10px;
 	border-radius: 8px;
 }
@@ -534,7 +610,7 @@ nav{
 .navbar-brand{
    	color: #36454F;
    	font-size: 15px;
-   	margin: 0px 50px;
+   	margin: 0px 80px;
 	font-family: monospace;
 }
 
@@ -565,6 +641,7 @@ nav{
 }
 
 .homepage{   
+	overflow: hidden;
 	max-width: 372px;
     margin: 0px;
     padding: 5px 10px;
@@ -592,12 +669,14 @@ nav{
 }
 
 .rrrr{
+	overflow-x: hidden;
 	position: absolute;
 	left:3px;
 	top: 370px;
 }
 
 .rrrr img{
+	overflow: hidden;
 	width: 370px;
 }
 
@@ -606,6 +685,7 @@ nav{
 }
 
 .skills-set{
+	overflow: hidden;
 	width: 330px;
 	margin: 250px 25px;
 	padding: 5px 25px;
@@ -676,7 +756,7 @@ nav{
 	width: 350px;
 	font-size: 15px;
 	font-family: sans-serif;
-	margin: 5px 2px;
+	margin: 8px 2px;
 }
 
 
@@ -690,13 +770,14 @@ nav{
 
 
 .cobb img{
-	width:15px;
-	height:15px;
-	margin: 12px 0px;
+	width:25px;
+	height:23px;
+	margin: 7px 0px;
 }
 
 
 .first-content-home{
+	overflow: hidden;
 	margin: 50px 3px;
 	font-family: sans-serif;
  }
@@ -749,10 +830,13 @@ nav{
 	display: flex;
 	flex-direction: column;
 	width: 390px;
-	height: 1500px;
-	margin: 280px 0px;
+	max-height: 400px;
+	height: 400px;
+	margin: 1000px 0px;
 	font-family: sans-serif;
 	padding: 15px 0px;
+	overflow: hidden;
+	
 }
 
 
@@ -766,8 +850,8 @@ nav{
 
 .hell h1{
 	font-size: 15px;
-	margin: 0px 10px;
-	width: 300px;
+	margin: 10px 5px;
+	width: 350px;
 }
 
 .hell a{
@@ -779,17 +863,22 @@ nav{
 .hell img {
 	width: 50px;
 	border-radius: 10px;
+	overflow: hidden;
 }
 
 
 .linkss{
 	text-align: center;
-	margin-bottom: 1150px;
+}
+
+.linkss h6{
+	margin-top: 20px;
 }
 
 .lim{
- display: none;
+    display: none;
 }
+
 
 
 
@@ -963,6 +1052,7 @@ hr{
 }
 
 .reel{
+	overflow: hidden;
 	margin:5px 80px;
 }
 
@@ -984,6 +1074,30 @@ hr{
  .momo img{
  	margin:5px 25px;
  }
+
+
+.first-content-contact input[type=text]{
+	margin: 20px 0px 0px 0px;
+	width: 350px;
+	border-radius: 10px;
+}
+
+
+.first-content-contact input[type=email]{
+	margin: 20px 0px 0px 0px;
+	width: 350px;
+	border-radius: 10px;
+}
+
+.message-formmm{
+	margin: 20px 0px 0px 00px;
+	width: 350px;
+}
+
+.boro{
+	margin: 20px 0px 0px -10px;
+}
+
 
 
 
