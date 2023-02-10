@@ -9,7 +9,7 @@ return(
 	</div>																
 <div className="first-cont">
 <h1>Testimonials</h1>
-<h3>I have 5 years commercial experience helping start-ups, small businesses, tech companies and agencies create successful websites.</h3>
+<h3>I have about 10 years of commercial experience helping start-ups, small businesses, tech companies and agencies create successful websites.</h3>
 </div>
 <div className="fleb">
 <div className="testt">

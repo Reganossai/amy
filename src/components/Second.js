@@ -7,7 +7,7 @@ import 	Footer from './Footer';
 
 const Second = () => {
 return(
-<div className="">
+<div className="moppppppp">
 <div className="first-header">
 <Navbar/>
 </div>

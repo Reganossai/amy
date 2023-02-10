@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 import 	Footer from './Footer';
 const First = () => {
 	return(
-<div className="polo">
+<div className="mopppppp">
 <div className="first-header">
 <Navbar/>
 </div>

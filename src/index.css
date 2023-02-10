@@ -8,7 +8,17 @@
 .navbar{
 	height: 80px;
 	background-color: #E39FF6;
+}
 
+.all-forms input[type=text]:hover{
+	background-color: #F0F0F0;
+	font-weight: 600;
+
+}
+
+.all-forms input[type=email]:hover{
+	background-color: #F0F0F0;
+	font-weight: 600;
 }
 
 .navbar img{
@@ -30,7 +40,10 @@ hr{
    	font-size: 30px;
 	font-family: fantasy;
 	margin: 0px 80px;
+}
 
+.navbar-brand:hover{
+	color: salmon;
 }
 
 
@@ -48,7 +61,7 @@ hr{
 }
 
 #navbarSupportedContent a:hover{
-	color: darkblue;
+	color:salmon;
 	text-decoration: none;
 	font-size: 20px;
 }
@@ -78,6 +91,8 @@ hr{
 }
 
 .first-cont h1{
+	color: salmon;
+	font-weight: 600;
 	margin-left: 320px;
 	font-size: 35px;
 	font-weight: bold;
@@ -159,6 +174,7 @@ hr{
 	font-size: 20px;
 }
 .first-content h1{
+	color:salmon;
 	margin: 15px 0;
 }
 
@@ -166,7 +182,8 @@ hr{
 .first-content-contact h1{
 	text-align: center;
 	font-size: 25px;
-	margin: 20px 0px
+	margin: 20px 0px;
+	color:salmon;
 }
 
 .first-content-contact p{
@@ -235,6 +252,7 @@ hr{
 }
 
 .homepage h1{
+	color:salmon;
 	font-size: 25px;
 }
 
@@ -253,6 +271,13 @@ hr{
 .reel{
 	margin:5px 50px;
 }
+
+.btn:hover{
+	background-color: #707070;
+	font-weight: 600;
+	color: black;
+}
+
 
 .homepage button{
 
@@ -315,6 +340,11 @@ color: lightblue;
 	border-radius: 15px;
 	width: 200px;
 
+}
+
+.submit-btn:hover{
+	background-color: #707070;
+	color: black;
 }
 
 .contacttt{
@@ -589,6 +619,16 @@ nav{
 }
 
 .moppppp{
+	max-height: 2000px;
+	height: 2000px;
+}
+
+.mopppppp{
+	max-height: 2000px;
+	height: 2000px;
+}
+
+.moppppppp{
 	max-height: 2000px;
 	height: 2000px;
 }
