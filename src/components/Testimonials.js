@@ -46,6 +46,7 @@ return(
 <a href="https://www.linkedin.com/in/braye">Linkedin</a>
 </div>
 </div>
+<hr/>
 <Footer/>
 	</div>);
 

@@ -32,6 +32,7 @@ return(
 <h2><b>Further Reading</b></h2>
 <b><a href="https://davidwalsh.name/introduction-static-site-generators">Static Site Generators</a></b>
 </div>
+<hr/>
 <Footer/>
 </div>
      );

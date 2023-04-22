@@ -52,6 +52,7 @@ First, we create a file sprite.svg, and add an svg element that wraps a defs ele
 <p>You can preload the sprite.svg file (and then cache it) to improve performance. By preloading a certain resource, you are telling the browser that you would like to fetch it sooner than the browser would otherwise discover it because you are certain that it is important for the current page. To preload the sprite, you add a link tag to the head of the document.Depending on your server's configuration, you might need to make sure the proper cache-headers are set on your sprite.svg so the browser can cache it appropriately.</p>
 <h2>That's it! Hope this was helpful.</h2>
 </div>
+<hr/>
 <Footer/>
 </div>
 		);

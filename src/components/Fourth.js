@@ -42,6 +42,7 @@ return(
 <h4>I am not saying that working hard is not a good thing, in fact it is critical to a happy and healthy life. But sacrificing relationships with real people for a twitter following, or to build a portfolio or bank account just seems like a lot of veneer and little substance. I have always admired my friend Tavier Thomas for closing down his restaurant so he could take an office job that gave him more time with his family and doing the things he loved.</h4>
 <h4>This is admirable. But being overindulgent, I struggle to walk away. I toggle between a state of apathy and doing too much. Finding this balance seems critical to happiness and personal sanity. (Yes I do realize that about one million books have been written on this- but it is still an epiphany to me). Perhaps one day I will be able to keep work confined to 40 hours a week, and whats left of my creative brain to think of new ways to love my fiancee , or build some stuff for our house, or (God forbid) do nothing. I am looking forward to that day.</h4>
 </div>
+<hr/>
 <Footer/>
 </div>
      );

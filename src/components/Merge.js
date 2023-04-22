@@ -7,7 +7,9 @@ const Merge = () => {
   return (
     <div className="mop">
       <Navbar />
+      <hr />
       <Home />
+      <hr/>
       <Footer />
     </div>
   );

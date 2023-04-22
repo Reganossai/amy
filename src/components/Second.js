@@ -96,6 +96,7 @@ In the early days of this product, it would receive less than impressive reviews
 </li>
 </ul>
 </div>
+<hr/>
 <Footer/>
 </div>
 	);

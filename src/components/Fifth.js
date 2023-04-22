@@ -47,6 +47,8 @@ return(
 
 </ul>
 </div>
+
+<hr/>
 <Footer/>
 </div>
    );
