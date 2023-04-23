@@ -369,7 +369,7 @@ hr {
 	background-color: black;
 	color: lightblue;
 	border-radius: 5px;
-	padding: 6px 20px 6px 0px;
+	padding: 6px 0px 6px 0px;
 	margin: 20px 0px 0px 30px;
 }
 
@@ -419,7 +419,7 @@ hr {
 
 .skills-set-two p {
 	text-align: center;
-	margin: 0px 0px 0px 0px;
+	margin: 30px 0px 0px 0px;
 	font-size: 20px;
 }
 
@@ -434,6 +434,13 @@ hr {
 }
 
 .skills-set-two h2{
+	text-align: center;
+	font-size: 15px;
+	margin: 0px 0px 50px 0px;
+	display: none;
+}
+
+.skills-set-two a{
 	text-align: center;
 	font-size: 15px;
 	margin: 0px 0px 50px 0px;
@@ -909,8 +916,8 @@ hr {
 
 	.skills-set-two {
 		overflow: hidden;
-		width: 390px;
-		margin: 50px 10px 50px 8px;
+		width: 400px;
+		margin: 50px 2px 50px 5px;
 		padding: 2px 5px 2px 5px;
 		font-family: sans-serif;
 		border-radius: 5px;
@@ -922,6 +929,10 @@ hr {
 		font-family: sans-serif;
 		font-weight: bold;
 		font-size: 18px;
+	}
+
+	.skills-set-two h2{
+		text-align: center;
 	}
 
 
@@ -945,7 +956,7 @@ hr {
 
 	.skills-set-two p {
 		text-align: center;
-		margin: 0px 0px 10px 0px;
+		margin: 20px 0px 10px 0px;
 		font-size: 15px;
 	}
 
@@ -1010,7 +1021,7 @@ hr {
 		flex-direction: column;
 		width: 390px;
 		position: absolute;
-		top: 1520px;
+		top: 1430px;
 		border-radius: 5px;
 	}
 
