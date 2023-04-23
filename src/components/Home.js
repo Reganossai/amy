@@ -115,7 +115,7 @@ const Home = () => {
         <p>Issued by Automation Anywhere</p>
         <img src={certi} alt="second-certfication" />
         <h6><a href="https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-56b78d03-f811-400b-959c-922e302b75fd-certificate.pdf">view certificate</a></h6>
-        <a  href="https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-56b78d03-f811-400b-959c-922e302b75fd-certificate.pdf">https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-56b78d03-f811-400b-959c-922e302b75fd-certificate.pdf</a>
+        <a href="https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-56b78d03-f811-400b-959c-922e302b75fd-certificate.pdf">https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-56b78d03-f811-400b-959c-922e302b75fd-certificate.pdf</a>
       </div>
 
       <div className="uuuu">
