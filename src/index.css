@@ -67,7 +67,7 @@ hr {
 }
 
 #navbarSupportedContent a:hover {
-	color: #808080;
+	color: salmon;
 	text-decoration: none;
 	font-size: 22px;
 }
@@ -109,6 +109,10 @@ hr {
 	margin: 0px 0px 0px 50px;
 }
 
+.kirk{
+	display: flex;
+
+}
 
 .first-conti {
 	width: 100%;
@@ -375,6 +379,7 @@ hr {
 	padding: 10px 40px;
 	font-family: cursive;
 	box-shadow: 1px 15px 20px rgba(0, 0, 0, 0.1);
+
 }
 
 .skills-set-two {
@@ -461,7 +466,7 @@ hr {
 .ig-div {
 	display: flex;
 	flex-direction: row;
-	margin: 10px 0px 0px 500px;
+	margin: 10px 20px 0px 500px;
 }
 
 .ig-div a {
@@ -482,7 +487,7 @@ hr {
 .whatsapp-div {
 	display: flex;
 	flex-direction: row;
-	margin: 10px 0px 0px 0px;
+	margin: 10px 20px 0px 0px;
 }
 
 .whatsapp-div a {
@@ -525,6 +530,7 @@ hr {
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 100px;
+	width: 400px;
 }
 
 
@@ -860,9 +866,11 @@ hr {
 	}
 
 	.rrrr {
+		width: 390px;
 		position: absolute;
 		left: 10px;
 		top: 550px;
+		overflow: hidden;
 	}
 
 	.rrrr img {
@@ -1043,6 +1051,7 @@ hr {
 
 	.first-content-home {
 		overflow: hidden;
+		max-width: 400px;
 		margin: 50px 10px;
 		font-family: sans-serif;
 	}
@@ -1430,6 +1439,10 @@ hr {
 
 	.boro {
 		margin: 20px 0px 0px -10px;
+	}
+
+	.everything{
+		overflow: hidden;
 	}
 
 
