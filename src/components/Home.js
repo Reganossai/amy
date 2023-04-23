@@ -4,7 +4,7 @@ import CV from "../assets/cv.pdf";
 import Footer from "./Footer";
 import cert from "../assets/cert.png";
 import certi from "../assets/certi.png";
-
+import aa from "../assets/aa.jpg";
 const Home = () => {
   function sendEmail(e) {
     e.preventDefault();
@@ -108,14 +108,16 @@ const Home = () => {
         <p>Robotic Process Automation Certificate</p>
         <p>Issued by Automation Anywhere</p>
         <img src={cert} alt="first-certfication" />
-        <h6><a href="https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-836391d8-8a7f-4642-93b8-163de54cb6b7-certificate.pdf">Credential Url</a></h6>
-        
+        <h6><a href="https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-836391d8-8a7f-4642-93b8-163de54cb6b7-certificate.pdf">view certificate</a></h6>
+        <h2>url link</h2>
+        <h2>https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-836391d8-8a7f-4642-93b8-163de54cb6b7-certificate.pdf</h2>
 
         <p>Robotic Process Automation Certificate</p>
         <p>Issued by Automation Anywhere</p>
         <img src={certi} alt="second-certfication" />
-        <h6><a href="https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-56b78d03-f811-400b-959c-922e302b75fd-certificate.pdf">Credential Url</a></h6>
-       
+        <h6><a href="https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-56b78d03-f811-400b-959c-922e302b75fd-certificate.pdf">view certificate</a></h6>
+        <h2>url link</h2>
+        <h2>https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-56b78d03-f811-400b-959c-922e302b75fd-certificate.pdf</h2>
       </div>
 
       <div className="uuuu">

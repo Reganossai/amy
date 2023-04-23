@@ -391,6 +391,7 @@ hr {
 
 }
 
+
 .skills-set h1 {
 	width: 800px;
 	margin: 0px 0px 0px 400px;
@@ -429,7 +430,13 @@ hr {
 
 .skills-set-two h6 {
 	text-align: center;
-	margin: 0px 0px 70px 0px;
+	margin: 0px 0px 30px 0px;
+}
+
+.skills-set-two h2{
+	text-align: center;
+	font-size: 15px;
+	margin: 0px 0px 50px 0px;
 }
 
 
@@ -530,7 +537,7 @@ hr {
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 100px;
-	width: 400px;
+	width: 1000px;
 }
 
 
@@ -902,8 +909,8 @@ hr {
 
 	.skills-set-two {
 		overflow: hidden;
-		width: 380px;
-		margin: 50px 10px 50px 10px;
+		width: 390px;
+		margin: 50px 10px 50px 8px;
 		padding: 2px 5px 2px 5px;
 		font-family: sans-serif;
 		border-radius: 5px;
@@ -931,9 +938,14 @@ hr {
 		font-family: 'Courier New', Courier, monospace;
 	}
 
+	.skills-set-two h6 {
+		display: none;
+	}
+	
+
 	.skills-set-two p {
 		text-align: center;
-		margin: 0px 0px 0px 0px;
+		margin: 0px 0px 10px 0px;
 		font-size: 15px;
 	}
 
@@ -998,7 +1010,7 @@ hr {
 		flex-direction: column;
 		width: 390px;
 		position: absolute;
-		top: 1200px;
+		top: 1520px;
 		border-radius: 5px;
 	}
 
@@ -1051,8 +1063,8 @@ hr {
 
 	.first-content-home {
 		overflow: hidden;
-		max-width: 400px;
-		margin: 50px 10px;
+		width: 400px;
+		margin: 50px 0px;
 		font-family: sans-serif;
 	}
 
@@ -1065,13 +1077,13 @@ hr {
 	}
 
 	.all-forms input {
-		width: 350px;
+		width: 370px;
 		margin: 20px 12px;
 	}
 
 	.message-form {
 		margin: 0px 12px;
-		width: 350px;
+		width: 370px;
 	}
 
 
@@ -1085,7 +1097,7 @@ hr {
 	.zaracho {
 		display: flex;
 		position: absolute;
-		right: 10px;
+		right: 7px;
 		margin-right: 20px;
 
 	}
