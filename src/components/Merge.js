@@ -7,9 +7,11 @@ const Merge = () => {
   return (
     <div className="mop">
       <Navbar />
+      <div className="firsthand">
       <hr />
+      </div>
       <Home />
-      <hr/>
+      <hr className="sca" style={{position:'absolute',top:'4000px'}}/>
       <Footer />
     </div>
   );

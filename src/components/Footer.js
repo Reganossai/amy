@@ -11,6 +11,7 @@ const Footer = () => {
       <div className="hell">
         <img src={reagan} alt="hy" />
       </div>
+      <div className="kirk">
       <div className="ig-div">
         <a href="https://www.instagram.com/reganossai">
           <img
@@ -49,10 +50,7 @@ const Footer = () => {
           <h5>Linkedin</h5>
         </a>
       </div>
-
-      {/*       
-<a href="https://wa.me/+2348108315163" target="_blank" rel="noreferrer"><img src={whatsapp}	alt="whatsapp"/></a>
-<a href="https://www.linkedin.com/in/reagan-ossai-2212971b5/" target="_blank" rel="noreferrer"><img src={linkedin}	alt="linkedin"/></a> */}
+      </div>
     </nav>
   );
 };
