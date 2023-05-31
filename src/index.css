@@ -278,18 +278,17 @@ hr {
 
 .homepage a {
 	margin: 10px 20px 10px 10px;
-	color: lightgreen;
 	background-color: black;
-	border-radius: 100px;
 
 }
 
 .reel {
 	margin: 0px 0px 0px 0px;
+	display: flex;
+	flex-direction: row;
 }
 
 .btn:hover {
-	background-color: #707070;
 	font-weight: 600;
 	color: black;
 }
@@ -301,17 +300,14 @@ hr {
 }
 
 .btn {
-	margin: 0px 50px;
-	color: white;
 	background-color: black;
-	border-radius: 50px;
+	color: #355E3B;
+
 }
 
-.thoughts-content {
-	max-width: 500px;
-	margin: 30px 350px;
+.thoughts-content{
+	padding: 20px;
 }
-
 
 .thoughts-content a {
 	font-size: 25px;
@@ -325,6 +321,7 @@ hr {
 
 .thoughts li {
 	margin: 20px 0;
+	list-style-type: none;
 
 }
 
@@ -353,7 +350,7 @@ hr {
 
 .submit-btn {
 	background-color: black;
-	color: lightgreen;
+	color:#355E3B;
 	padding: 10px 10px;
 	border-radius: 15px;
 	width: 200px;
@@ -365,13 +362,18 @@ hr {
 	color: black;
 }
 
-.contacttt {
+#contacttt {
+	margin-left: 30px;
 	background-color: black;
-	color: lightblue;
-	border-radius: 5px;
-	padding: 6px 0px 6px 0px;
-	margin: 20px 0px 0px 30px;
+	
+	
 }
+
+#contacttt a{
+	color: #355E3B;
+}
+
+
 
 .skills-set {
 	width: 1200px;
@@ -389,6 +391,10 @@ hr {
 	font-family: cursive;
 	box-shadow: 1px 15px 20px rgba(0, 0, 0, 0.1);
 
+}
+
+.kill{
+	display: none;
 }
 
 
@@ -468,7 +474,7 @@ hr {
 }
 
 .ssss h2 {
-	margin: 10px 10px 10px 20px;
+	margin: 10px 10px 10px 0px;
 }
 
 .ig {
@@ -540,7 +546,6 @@ hr {
 
 
 .cob {
-	overflow: hidden;
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 100px;
@@ -749,7 +754,7 @@ hr {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
 	* {
 		margin: 0;
@@ -757,8 +762,7 @@ hr {
 	}
 
 	nav {
-		width: 390px;
-		overflow-x: hidden;
+
 	}
 
 	.mop {
@@ -797,11 +801,11 @@ hr {
 	}
 
 	.navbar {
-		width: 400px;
+		max-width: 600px;
 		height: 80px;
-		margin: 0px 0px 0px 0px;
+		margin: 0px auto;
 		background-color: #B6D0E2;
-		overflow: hidden;
+		
 	}
 
 	.navbar img {
@@ -828,7 +832,7 @@ hr {
 		left: 0;
 		right: 0;
 		z-index: 99;
-		width: 400px;
+		width: 100%;
 		height: 100vh;
 		background-color: whitesmoke;
 	}
@@ -846,10 +850,10 @@ hr {
 		display: none;
 	}
 
-	.homepage {
-		overflow: hidden;
-		width: 500px;
-		margin: 25px 0px 0px 30px;
+	.homepage {	
+		max-width: 600px;
+		width: 100%;
+		margin: 25px 0px 0px 0px;
 	}
 
 	.homepage h1 {
@@ -869,33 +873,20 @@ hr {
 		font-size: 17px;
 	}
 
-	.homepage a {
-		margin-left: 50px;
-		font-size: 13px;
-	}
-
-	.homepage button {
-		background-color: black;
-
-	}
-
 	.rrrr {
-		width: 390px;
 		position: absolute;
 		left: 10px;
-		top: 550px;
-		overflow: hidden;
+		top: 490px;
 	}
 
 	.rrrr img {
-		overflow: hidden;
-		width: 390px;
+		width: 350px;
 	}
 
 
 	.llll {
 		top: 780px;
-		left: 0px;
+		left: 20px;
 	}
 
 	.llll img {
@@ -903,11 +894,15 @@ hr {
 		opacity: 0.1;
 	}
 
+	.llll, .tttt, .vvvv, .uuuu{
+		overflow-x: hidden;
+	}
+
 
 	.skills-set {
-		overflow: hidden;
-		width: 380px;
-		margin: 250px 10px 50px 10px;
+		max-width: 600px;
+		width: 100%;
+		margin: 250px 2px 50px 0px;
 		padding: 5px 25px;
 		font-family: sans-serif;
 		border-radius: 5px;
@@ -915,17 +910,25 @@ hr {
 	}
 
 	.skills-set-two {
-		overflow: hidden;
-		width: 400px;
-		margin: 50px 2px 50px 5px;
+		width: 350px;
+		margin: 0px;
 		padding: 2px 5px 2px 5px;
 		font-family: sans-serif;
 		border-radius: 5px;
 	}
+	
+	.kill{
+		display: block;
+		width: 350px;
+		padding: 0px;
+	}
+
+
 
 
 	.skills-set h1 {
-		margin: 20px 80px;
+		width: 200px;
+		margin: 20px 0px 0px 80px;
 		font-family: sans-serif;
 		font-weight: bold;
 		font-size: 18px;
@@ -937,10 +940,10 @@ hr {
 
 
 	.skills-set-two h4 {
-		margin: 10px 0px 10px 0px;
+		width: 360px;
 		font-family: sans-serif;
 		font-weight: bold;
-		font-size: 17px;
+		font-size: 15px;
 	}
 
 	.skills-set-two h5 {
@@ -950,7 +953,7 @@ hr {
 	}
 
 	.skills-set-two h6 {
-		display: none;
+		
 	}
 	
 
@@ -958,13 +961,14 @@ hr {
 		text-align: center;
 		margin: 20px 0px 10px 0px;
 		font-size: 15px;
+		width: 300px;
 	}
 
 
 	.skills-set-two h6 {
 		text-align: center;
-		margin: 0px 0px 20px 0px;
 		font-size: 12px;
+		
 	}
 
 
@@ -985,6 +989,10 @@ hr {
 		font-family: sans-serif;
 	}
 
+	.kill a{
+		width: 0px;
+	}
+
 	.tttt {
 		top: 780px;
 		right: 1%;
@@ -997,7 +1005,7 @@ hr {
 
 	.uuuu {
 		top: 1080px;
-		right: 1%;
+	
 	}
 
 	.uuuu img {
@@ -1008,7 +1016,7 @@ hr {
 
 	.vvvv {
 		top: 1080px;
-		left: 0px;
+		left: 5px;
 	}
 
 	.vvvv img {
@@ -1019,9 +1027,12 @@ hr {
 	.cob {
 		display: flex;
 		flex-direction: column;
-		width: 390px;
+		max-width: 400px;
+		width: 350px;
+		margin: 0 auto;
 		position: absolute;
-		top: 1430px;
+		top: 1510px;
+		
 		border-radius: 5px;
 	}
 
@@ -1034,7 +1045,7 @@ hr {
 	}
 
 	.cobb {
-		width: 390px;
+		width: 320px;
 		margin: 250px 10px 0px 10px;
 		padding: 5px 25px;
 		background-color: #F0F0F0;
@@ -1073,8 +1084,7 @@ hr {
 
 
 	.first-content-home {
-		overflow: hidden;
-		width: 400px;
+		width: 300px;
 		margin: 50px 0px;
 		font-family: sans-serif;
 	}
@@ -1088,13 +1098,13 @@ hr {
 	}
 
 	.all-forms input {
-		width: 370px;
-		margin: 20px 12px;
+		width: 320px;
+		margin: 20px 0px;
 	}
 
 	.message-form {
-		margin: 0px 12px;
-		width: 370px;
+		margin: 0px 0px;
+		width: 320px;
 	}
 
 
@@ -1126,13 +1136,11 @@ hr {
 	.first-conti {
 		display: flex;
 		flex-direction: column;
-		width: 400px;
+		width: 100%;
 		max-height: 400px;
 		height: 400px;
 		margin: 1000px 0px;
 		font-family: sans-serif;
-		padding: 15px 0px 80px 0px;
-		overflow: hidden;
 		background-color: #B6D0E2;
 	}
 
@@ -1197,7 +1205,6 @@ hr {
 	.hell img {
 		width: 70px;
 		border-radius: 10px;
-		overflow: hidden;
 		margin: 80px 0px 0px 20px;
 	}
 
@@ -1337,6 +1344,7 @@ hr {
 
 
 	.thoughts-content {
+		width: 100%;
 		max-width: 370px;
 		margin: 30px 10px;
 	}
@@ -1400,12 +1408,18 @@ hr {
 	}
 
 	.reel {
-		overflow: hidden;
 		margin: 2px 10px 2px 0px;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		width: 300px;
 	}
+
+	.reel a {
+		margin-left: 25px;
+		font-size: 13px;
+	}
+
+	
 
 	.firsthand {
 		display: none;
@@ -1428,7 +1442,7 @@ hr {
 
 	.ssss h2 {
 		margin: 10px 10px 10px 0px;
-		font-size: 13px;
+		font-size: 12px;
 	}
 
 	.momo {
@@ -1465,7 +1479,11 @@ hr {
 	}
 
 	.everything{
+		
+		width: 100%;
+		margin: 0 auto;
 		overflow: hidden;
+		padding: 20px;
 	}
 
 
@@ -1500,3 +1518,5 @@ hr {
 
 
 }
+
+
