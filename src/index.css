@@ -306,7 +306,7 @@ hr {
 }
 
 .thoughts-content{
-	padding: 20px;
+	padding: 60px;
 }
 
 .thoughts-content a {
@@ -858,7 +858,7 @@ hr {
 
 
 	#navbarSupportedContentMobile li a {
-		color: darkblue;
+		color: black;
 	}
 
 	#navbarSupportedContent {
@@ -1009,7 +1009,11 @@ hr {
 	}
 
 	.kill a{
-		width: 0px;
+		width: 100%;
+	}
+
+	.kill a{
+		margin-left: 150px;
 	}
 
 	.tttt {
@@ -1050,8 +1054,7 @@ hr {
 		width: 350px;
 		margin: 0 auto;
 		position: absolute;
-		top: 1510px;
-		
+		top: 1500px;
 		border-radius: 5px;
 	}
 
