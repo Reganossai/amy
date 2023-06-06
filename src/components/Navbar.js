@@ -28,6 +28,11 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav-link">
+          <NavLink activeClassName="active" to="/projects">
+            Projects
+          </NavLink>
+        </li>
+        <li className="nav-link">
           <NavLink activeClassName="active" to="/testimonials">
             Testimonials
           </NavLink>
@@ -45,6 +50,9 @@ const Navbar = () => {
       </ul>
       {nav ? (
         <ul id="navbarSupportedContentMobile">
+          <li className="nav-link">
+            <Link to="/projects">Projects</Link>
+          </li>
           <li className="nav-link">
             <Link to="/testimonials">Testimonials</Link>
           </li>

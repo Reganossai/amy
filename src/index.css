@@ -753,6 +753,25 @@ hr {
 	display: none;
 }
 
+.projects{
+	width: 800px;
+	padding: 20px 0px 50px 350px;
+}
+
+.projects h1{
+	font-size: 25px;
+	color: #355E3B;
+}
+
+.projects h2{
+	font-size: 20px;
+}
+
+.projects a{
+	margin: 100px 0px 30px 0px;
+	color: blue;
+}
+
 
 @media only screen and (max-width: 800px) {
 

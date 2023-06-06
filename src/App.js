@@ -1,14 +1,15 @@
 import { BrowserRouter , Route, Switch } from 'react-router-dom';
 import './App.css'; 
-import Merge from './components/Merge';
-import Blogs from './components/Thoughts';
-import First from './components/First';
-import Second from './components/Second';
-import Third from './components/Third';
-import Fourth from './components/Fourth';
-import Fifth from './components/Fifth';
-import Contact from './components/Contact';
-import Testimonials from './components/Testimonials';
+import Merge from './pages/Merge';
+import Blogs from './pages/Thoughts';
+import First from './pages/First';
+import Second from './pages/Second';
+import Third from './pages/Third';
+import Fourth from './pages/Fourth';
+import Fifth from './pages/Fifth';
+import Contact from './pages/Contact';
+import Testimonials from './pages/Testimonials';
+import Projects from './pages/Projects';
 
 
 function App() {
@@ -42,6 +43,9 @@ function App() {
 </Route>
 <Route path="/testimonials">
 <Testimonials />
+</Route>
+<Route path="/projects">
+<Projects />
 </Route>
 
 </Switch>

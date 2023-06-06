@@ -1,8 +1,8 @@
-import Navbar from './Navbar';
+import Navbar from '../components/Navbar';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
-import 	Footer from './Footer';
+import 	Footer from '../components/Footer';
  
 const Fourth = () => {
 return(

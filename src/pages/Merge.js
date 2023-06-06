@@ -1,7 +1,7 @@
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import Home from "./Home";
 import Contact from "./Contact";
-import Footer from "./Footer";
+import Footer from "../components/Footer";
 
 const Merge = () => {
   return (

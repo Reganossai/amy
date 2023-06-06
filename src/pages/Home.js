@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
 import CV from "../assets/cv.pdf";
-import Footer from "./Footer";
+import Footer from "../components/Footer";
 import cert from "../assets/cert.png";
 import certi from "../assets/certi.png";
 import aa from "../assets/aa.jpg";
