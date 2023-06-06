@@ -109,7 +109,7 @@ hr {
 	margin: 0px 0px 0px 50px;
 }
 
-.kirk{
+.kirk {
 	display: flex;
 
 }
@@ -305,7 +305,7 @@ hr {
 
 }
 
-.thoughts-content{
+.thoughts-content {
 	padding: 60px;
 }
 
@@ -350,7 +350,7 @@ hr {
 
 .submit-btn {
 	background-color: black;
-	color:#355E3B;
+	color: #355E3B;
 	padding: 10px 10px;
 	border-radius: 15px;
 	width: 200px;
@@ -365,11 +365,11 @@ hr {
 #contacttt {
 	margin-left: 30px;
 	background-color: black;
-	
-	
+
+
 }
 
-#contacttt a{
+#contacttt a {
 	color: #355E3B;
 }
 
@@ -393,7 +393,7 @@ hr {
 
 }
 
-.kill{
+.kill {
 	display: none;
 }
 
@@ -439,14 +439,14 @@ hr {
 	margin: 0px 0px 30px 0px;
 }
 
-.skills-set-two h2{
+.skills-set-two h2 {
 	text-align: center;
 	font-size: 15px;
 	margin: 0px 0px 50px 0px;
 	display: none;
 }
 
-.skills-set-two a{
+.skills-set-two a {
 	text-align: center;
 	font-size: 15px;
 	margin: 0px 0px 50px 0px;
@@ -753,23 +753,27 @@ hr {
 	display: none;
 }
 
-.projects{
+.projects {
 	width: 800px;
 	padding: 20px 0px 50px 350px;
 }
 
-.projects h1{
+.projects h1 {
 	font-size: 25px;
 	color: #355E3B;
 }
 
-.projects h2{
+.projects h2 {
 	font-size: 20px;
 }
 
-.projects a{
+.projects a {
 	margin: 100px 0px 30px 0px;
 	color: blue;
+}
+
+.lopp{
+	display: none;
 }
 
 
@@ -780,9 +784,7 @@ hr {
 		padding: 0;
 	}
 
-	nav {
-
-	}
+	nav {}
 
 	.mop {
 		max-height: 2000px;
@@ -824,7 +826,7 @@ hr {
 		height: 80px;
 		margin: 0px auto;
 		background-color: #B6D0E2;
-		
+
 	}
 
 	.navbar img {
@@ -869,7 +871,7 @@ hr {
 		display: none;
 	}
 
-	.homepage {	
+	.homepage {
 		max-width: 600px;
 		width: 100%;
 		margin: 25px 0px 0px 0px;
@@ -913,10 +915,14 @@ hr {
 		opacity: 0.1;
 	}
 
-	.llll, .tttt, .vvvv, .uuuu{
+	.llll, .tttt, .vvvv, .uuuu {
 		overflow-x: hidden;
 	}
 
+
+	.lopp {
+		display: none;
+	}
 
 	.skills-set {
 		max-width: 600px;
@@ -935,8 +941,8 @@ hr {
 		font-family: sans-serif;
 		border-radius: 5px;
 	}
-	
-	.kill{
+
+	.kill {
 		display: block;
 		width: 350px;
 		padding: 0px;
@@ -953,7 +959,7 @@ hr {
 		font-size: 18px;
 	}
 
-	.skills-set-two h2{
+	.skills-set-two h2 {
 		text-align: center;
 	}
 
@@ -971,10 +977,8 @@ hr {
 		font-family: 'Courier New', Courier, monospace;
 	}
 
-	.skills-set-two h6 {
-		
-	}
-	
+	.skills-set-two h6 {}
+
 
 	.skills-set-two p {
 		text-align: center;
@@ -987,7 +991,7 @@ hr {
 	.skills-set-two h6 {
 		text-align: center;
 		font-size: 12px;
-		
+
 	}
 
 
@@ -1008,11 +1012,11 @@ hr {
 		font-family: sans-serif;
 	}
 
-	.kill a{
+	.kill a {
 		width: 100%;
 	}
 
-	.kill a{
+	.kill a {
 		margin-left: 150px;
 	}
 
@@ -1028,7 +1032,7 @@ hr {
 
 	.uuuu {
 		top: 1080px;
-	
+
 	}
 
 	.uuuu img {
@@ -1441,7 +1445,7 @@ hr {
 		font-size: 13px;
 	}
 
-	
+
 
 	.firsthand {
 		display: none;
@@ -1500,8 +1504,8 @@ hr {
 		margin: 20px 0px 0px -10px;
 	}
 
-	.everything{
-		
+	.everything {
+
 		width: 100%;
 		margin: 0 auto;
 		overflow: hidden;
@@ -1540,5 +1544,3 @@ hr {
 
 
 }
-
-
