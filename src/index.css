@@ -283,7 +283,7 @@ hr {
 }
 
 .reel {
-	margin: 0px 0px 0px 0px;
+	margin: 50px 0px 0px 0px;
 	display: flex;
 	flex-direction: row;
 }
@@ -895,7 +895,7 @@ hr {
 	.rrrr {
 		position: absolute;
 		left: 10px;
-		top: 490px;
+		top: 530px;
 	}
 
 	.rrrr img {
@@ -1430,7 +1430,7 @@ hr {
 	}
 
 	.reel {
-		margin: 2px 10px 2px 0px;
+		margin: 30px 10px 2px 0px;
 		display: flex;
 		flex-direction: row;
 		width: 300px;
