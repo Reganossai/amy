@@ -7,7 +7,7 @@ return(
 	<div className="contact-header">
 	<Navbar/>
 	</div>																
-<div className="first-cont">
+<div className="fif">
 <h1>Projects</h1>
 <h3>I have about 10 years of commercial experience helping start-ups, small businesses, tech companies and agencies create successful websites.</h3>
 </div>
@@ -24,9 +24,7 @@ return(
     <h2>An app created using react, css, javascript and bootstrap</h2>
     <a href='https://flighttest.netlify.app'>url link</a>
     
-    
     </div>
-    <hr/>
 <Footer/>
 	</div>);
 
