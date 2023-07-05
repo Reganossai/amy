@@ -57,7 +57,7 @@ hr {
 	display: none;
 }
 
-#navbarSupportedContent {
+	#navbarSupportedContent {
 	display: flex;
 	flex-direction: row;
 	text-decoration: none;
@@ -218,6 +218,9 @@ hr {
 	font-weight: 600;
 }
 
+#submittt{
+	border-radius: 10px;
+}
 
 .message-formmm {
 	margin: 20px 0px 0px 80px;
@@ -306,7 +309,7 @@ hr {
 }
 
 .thoughts-content {
-	padding: 15px 0px 0px 30px;
+	padding: 0px 0px 0px 30px;
 }
 
 .thoughts-content a {
@@ -354,7 +357,6 @@ hr {
 	padding: 10px 10px;
 	border-radius: 15px;
 	width: 200px;
-
 }
 
 .submit-btn:hover {
@@ -394,6 +396,14 @@ hr {
 }
 
 .kill {
+	display: none;
+}
+
+.fif h1 {
+	display: none;
+}
+
+.fif h3 {
 	display: none;
 }
 
@@ -772,7 +782,7 @@ hr {
 	color: blue;
 }
 
-.lopp{
+.lopp {
 	display: none;
 }
 
@@ -869,6 +879,12 @@ hr {
 
 	.qqqq {
 		display: none;
+	}
+
+
+	#submittt {
+		margin-left: 120px;
+		border-radius: 10px;
 	}
 
 	.homepage {
@@ -1168,7 +1184,7 @@ hr {
 		margin: 1000px 0px;
 		font-family: sans-serif;
 		background-color: #B6D0E2;
-		
+
 	}
 
 	.ig {
@@ -1519,16 +1535,16 @@ hr {
 		font-family: Arial, Helvetica, sans-serif;
 	}
 
-	.projects h1{
+	.projects h1 {
 		font-size: 25px;
 		margin-top: 20px;
 	}
 
-	.projects h2{
+	.projects h2 {
 		font-size: 18px;
 	}
 
-	.projects a{
+	.projects a {
 		margin: 20px 0px 20px 0px;
 	}
 
@@ -1541,15 +1557,15 @@ hr {
 		font-size: 35px;
 		font-weight: bold;
 	}
-	
+
 	.fif h3 {
 		font-size: 18px;
 		margin: 0px 10px 20px 25px;
 		width: 300px;
 	}
-	
 
-	
+
+
 
 
 

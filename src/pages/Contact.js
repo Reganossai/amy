@@ -39,7 +39,7 @@ return(
 <textarea className="form-control" id="" cols="14" rows="4" placeholder="Your message" name="message"></textarea>
 </div>
 <div className="boro">
-<input type="submit" className="submit-btn" value="send Message"></input>
+  <button type="submit" id="submittt" className='btn btn-outline-dark'>Submit Message</button>
 </div>
 </div>
 </form>

@@ -30,6 +30,7 @@ const Home = () => {
   }
   return (
     <div className="everything">
+      
       <div className="homepage">
         <h1>
           <b> Hello,</b>
