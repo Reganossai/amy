@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import cert from "../assets/cert.png";
 import certi from "../assets/certi.png";
 import processmaker1 from "../assets/processmaker1.png";
+import processmaker2 from "../assets/processmakercertificate2.png";
 import aa from "../assets/aa.jpg";
 
 const Home = () => {
@@ -139,7 +140,7 @@ const Home = () => {
         </div>
         
 
-        <p>Process Maker certificate</p>
+        <p>Introduction_to_BPMN_Certificate</p>
         <p>Issued by ProcessMaker Inc.</p>
         <img src={processmaker1} alt="third-certfication" />
         <h6>
@@ -153,22 +154,21 @@ const Home = () => {
           </a>
         </div>
 
-        <div className="lopp">
-        <p>Robotic Process Automation Certificate</p>
-        <p>Issued by Automation Anywhere</p>
-        <img src={certi} alt="second-certfication" />
+        <p>Process Designer Course Certificate</p>
+        <p>Issued by ProcessMaker Inc.</p>
+        <img src={processmaker2} alt="third-certfication" />
         <h6>
-          <a href="https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-56b78d03-f811-400b-959c-922e302b75fd-certificate.pdf">
+          <a href="https://certificates.processmaker.net/Introduction_to_BPMN_Certificate%20Reagan%20Ossai.pdf">
             view certificate
           </a>
         </h6>
         <div className="kill">
-          <a href="https://ti-user-certificates.s3.amazonaws.com/17311944-b03d-468b-ada5-04276cdf6804/5d1204b2-0bb5-4dab-9a61-f0322e992421-reagan-ossai-56b78d03-f811-400b-959c-922e302b75fd-certificate.pdf">
+          <a href="https://certificates.processmaker.net/Introduction_to_BPMN_Certificate%20Reagan%20Ossai.pdf">
             url link
           </a>
         </div>
-        </div>
 
+        
       </div>
 
       <div className="uuuu">

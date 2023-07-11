@@ -11,7 +11,7 @@ const Merge = () => {
       <hr />
       </div>
       <Home />
-      <hr className="sca" style={{position:'absolute',top:'4690px'}}/>
+      <hr className="sca" style={{position:'absolute',top:'5350px'}}/>
       <Footer />
     </div>
   );

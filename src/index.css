@@ -951,9 +951,9 @@ hr {
 	}
 
 	.skills-set-two {
-		width: 350px;
+		width: 365px;
 		margin: 0px;
-		padding: 2px 5px 2px 5px;
+		padding: 2px 5px 5px 5px;
 		font-family: sans-serif;
 		border-radius: 5px;
 	}
@@ -1074,7 +1074,8 @@ hr {
 		width: 350px;
 		margin: 0 auto;
 		position: absolute;
-		top: 1500px;
+		top: 1650px;
+		padding: 20px;
 		border-radius: 5px;
 	}
 
