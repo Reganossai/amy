@@ -42,7 +42,7 @@ const Home = () => {
         <h3>I am a Web developer based in Lagos, Nigeria.</h3>
         <h3>
           Currently I'm working remotely building web applications from scratch
-          with html, css, css frameworks like scss and react js. This makes me
+          with html, css, frameworks like scss and react js. This makes me
           open to a wide range of opportunities
         </h3>
         <div className="reel">

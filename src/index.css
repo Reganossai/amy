@@ -1,3 +1,45 @@
+
+@keyframes scaleAnimation {
+	0% {
+	  transform: scale(1);
+	}
+	50% {
+	  transform: scale(1.2);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+
+  @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@keyframes moveText {
+	0%, 100% {
+	  transform: translateX(0) translateY(0); /* Start and end position, no translation */
+	}
+	20% {
+	  transform: translateX(100px) translateY(0); /* Move to the right */
+	}
+	50% {
+	  transform: translateX(100px) translateY(100px); /* Move down */
+	}
+	75% {
+	  transform: translateX(0) translateY(100px); /* Move to the left */
+	}
+  }
+
+
+
 * {
 	padding: 0;
 	margin: 0;
@@ -41,12 +83,15 @@ hr {
 	margin-left: 5%;
 }
 
+
 .navbar-brand {
 	color: #355E3B;
 	font-size: 30px;
 	font-family: fantasy;
 	margin: 0px 80px;
-}
+	transform: rotate(90deg);
+	animation: scaleAnimation 3s ease-in-out infinite;
+} 
 
 .navbar-brand:hover {
 	color: salmon;
@@ -139,6 +184,7 @@ hr {
 	width: 100px;
 	margin: 5px 0px 0px 100px;
 	border-radius: 10px;
+    animation: rotate 5s linear infinite;	
 }
 
 
@@ -298,7 +344,6 @@ hr {
 
 
 .homepage button {
-
 	border-radius: 90px;
 }
 
@@ -409,22 +454,24 @@ hr {
 
 
 .skills-set h1 {
-	width: 800px;
+	width: fit-content;
 	margin: 0px 0px 0px 400px;
 	padding: 30px 5px;
 	font-family: verdana;
 	font-weight: bold;
 	font-size: 50px;
+	animation: scaleAnimation 3s ease-in-out infinite;
 }
 
 
 .skills-set-two h4 {
-	width: 1200px;
-	margin: 0px 0px 0px 0px;
+	width: fit-content;
+	margin: 0px 0px 0px 10px;
 	padding: 30px 5px;
 	font-family: verdana;
 	font-weight: bold;
-	font-size: 45px;
+	font-size: 40px;
+	animation: scaleAnimation 3s ease-in-out infinite;
 }
 
 .skills-set-two h5 {
@@ -476,11 +523,12 @@ hr {
 .ssss {
 	display: flex;
 	flex-direction: row;
-	margin: 20px 0px 10px 250px;
+	margin: 20px 0px 10px 380px;
 }
 
 .ssss img {
 	margin: 00px 0px 0px 0px;
+	animation: rotate 5s linear infinite;
 }
 
 .ssss h2 {
@@ -614,7 +662,7 @@ hr {
 
 .rrrr {
 	position: absolute;
-	right: 80px;
+	right: 120px;
 	top: 150px;
 }
 
@@ -640,9 +688,11 @@ hr {
 	opacity: 0.2;
 }
 
-
+@media (min-width: 768px) {
 .rrrr img {
 	width: 600px;
+	animation: moveText 4s linear infinite;
+}
 }
 
 .qqqq {
@@ -951,7 +1001,7 @@ hr {
 	}
 
 	.skills-set-two {
-		width: 365px;
+		width: 100%;
 		margin: 0px;
 		padding: 2px 5px 5px 5px;
 		font-family: sans-serif;
@@ -1071,10 +1121,10 @@ hr {
 		display: flex;
 		flex-direction: column;
 		max-width: 400px;
-		width: 350px;
-		margin: 0 auto;
+		width: 100%;
 		position: absolute;
 		top: 1650px;
+		left: 0px;
 		padding: 20px;
 		border-radius: 5px;
 	}
@@ -1089,7 +1139,10 @@ hr {
 
 	.cobb {
 		width: 320px;
-		margin: 250px 10px 0px 10px;
+		margin-top: 250px;
+		margin-bottom: 10px;
+		margin-left: 2%;
+		/* margin: 250px 10px 0px -10px; */
 		padding: 5px 25px;
 		background-color: #F0F0F0;
 	}
