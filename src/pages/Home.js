@@ -31,7 +31,6 @@ const Home = () => {
   }
   return (
     <div className="everything">
-      
       <div className="homepage">
         <h1>
           <b> Hello,</b>
@@ -39,11 +38,11 @@ const Home = () => {
         <h2>
           <b>I'm Reagan.</b>
         </h2>
-        <h3>I am a Web developer based in Lagos, Nigeria.</h3>
+        <h3>I am a Web developer based in Los Angeles, California.</h3>
         <h3>
-          Currently I'm working remotely building web applications from scratch
-          with html, css, frameworks like scss and react js. This makes me
-          open to a wide range of opportunities
+          Currently I'm working remotely building highly detailed web
+          applications with frameworks like scss and react js. This makes me open to
+          a wide range of opportunities
         </h3>
         <div className="reel">
           <button className="btn btn-success">
@@ -138,7 +137,6 @@ const Home = () => {
             url link
           </a>
         </div>
-        
 
         <p>Introduction_to_BPMN_Certificate</p>
         <p>Issued by ProcessMaker Inc.</p>
@@ -167,8 +165,6 @@ const Home = () => {
             url link
           </a>
         </div>
-
-        
       </div>
 
       <div className="uuuu">
