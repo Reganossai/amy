@@ -16,13 +16,15 @@ const Projects = () => {
         </h3>
       </div>
       <div className="projects">
-        <h1>Web devlopment tutorial course</h1>
-        <h2>An app created using react, css, javascript and bootstrap</h2>
-        <a href="https://next-itservices-web-dev-tutorial.netlify.app">url link</a>
+        <h1>updateScore</h1>
+        <h2>An app created using react, css, javascript.</h2>
+        <a href="https://updatescore-reagan.netlify.app/">
+          url link
+        </a>
         <h1>Kinkiverse</h1>
         <h2>An app created using react, css, javascript and bootstrap</h2>
         <a href="https://kinkiverse.netlify.app">url link</a>
-          <h1>Sekior</h1>
+        <h1>Sekior</h1>
         <h2>
           An app created using react, sass(for styling), javascript and
           bootstrap
@@ -36,6 +38,12 @@ const Projects = () => {
         <h1>Flighttest</h1>
         <h2>An app created using react, css, javascript and bootstrap</h2>
         <a href="https://flighttest.netlify.app">url link</a>
+
+        <h1>Web devlopment tutorial course</h1>
+        <h2>An app created using react, css, javascript and bootstrap</h2>
+        <a href="https://next-itservices-web-dev-tutorial.netlify.app">
+          url link
+        </a>
       </div>
       <Footer />
     </div>
