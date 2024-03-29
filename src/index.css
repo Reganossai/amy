@@ -320,7 +320,7 @@ hr {
 
 .homepage h2 {
 	margin: 0px 0px 10px 0px;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 700;
 	width: 400px;
 	color: crimson;
@@ -1008,7 +1008,7 @@ hr {
 
 	.homepage h2 {
 		margin: 0px 0px 10px 15px;
-		font-size: 25px;
+		font-size: 20px;
 		width: 330px;
 		font-family: Arial, Helvetica, sans-serif;
 		font-weight: 700	;
@@ -1022,7 +1022,7 @@ hr {
 	.rrrr {
 		position: absolute;
 		left: 12px;
-		top: 320px;
+		top: 400px;
 	}
 
 	.rrrr img {
