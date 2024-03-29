@@ -1,10 +1,10 @@
 import react, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRegistered } from "@fortawesome/free-solid-svg-icons";
+import { faHeart, faRegistered } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { Link, NavLink } from "react-router-dom";
-import reagan from "../assets/reagan.jpg";
+import reagan from "../assets/image0.jpeg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -19,48 +19,31 @@ const Navbar = () => {
     <nav className="navbar">
       <img src={reagan} alt="logo" />
       <a className="navbar-brand" href="/">
-        REAGAN OSSAI
+        For Amy <FontAwesomeIcon icon={faHeart} />
       </a>
-      <ul id="navbarSupportedContent">
-        <li className="nav-link" aria-current="page">
-          <NavLink exact activeClassName="active" to="/">
-            Home
-          </NavLink>
-        </li>
-        <li className="nav-link">
-          <NavLink activeClassName="active" to="/projects">
-            Projects
-          </NavLink>
-        </li>
-        <li className="nav-link">
-          <NavLink activeClassName="active" to="/testimonials">
-            Testimonials
-          </NavLink>
-        </li>
-        <li className="nav-link">
-          <NavLink activeClassName="active" to="/thoughts">
-            Blogs
-          </NavLink>
-        </li>
-        <li className="nav-link">
-          <NavLink activeClassName="active" to="/contact">
-            Contact
-          </NavLink>
-        </li>
-      </ul>
+
       {nav ? (
         <ul id="navbarSupportedContentMobile">
           <li className="nav-link">
-            <Link to="/projects">Projects</Link>
+            <p>Hiii</p>
           </li>
           <li className="nav-link">
-            <Link to="/testimonials">Testimonials</Link>
+            <p>
+              Your eyes are so captivating, they even glitter sometimes and I
+              finally figured out why youre so hot, cause you probably were
+              birthed on a sunday and guessing it was a sunny day. I am writing
+              this informal letter to atone for not being to wish you a happy
+              valentine's day early enough due to the fact that nature decided
+              to bring you into my life a little bit late. Never the less, you
+              know what they say, it's better late than never. I really hope you
+              accept this gift from the bottom of my heart.
+            </p>
           </li>
           <li className="nav-link">
-            <Link to="/thoughts">Blogs</Link>
+            <p>Yours Sincerely,</p>
           </li>
           <li className="nav-link">
-            <Link to="/contact">Contact</Link>
+            <p>Reagan Ossai</p>
           </li>
         </ul>
       ) : null}
