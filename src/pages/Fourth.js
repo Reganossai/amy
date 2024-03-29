@@ -10,6 +10,7 @@ return(
 <div className="first-header">
 <Navbar/>
 </div>
+
 <div className="first-content">
 <Link to="/thoughts"><FontAwesomeIcon icon={faArrowLeft}/>All posts</Link>
 <h1><b>Struggling to Believe Greatness is Worth It</b></h1>
