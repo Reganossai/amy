@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="navbar">
       <img src={reagan} alt="logo" />
       <a className="navbar-brand" href="/">
-        For Amy <FontAwesomeIcon icon={faHeart} />
+        For Amy <FontAwesomeIcon icon={faHeart} /> 
       </a>
 
       {nav ? (
