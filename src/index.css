@@ -996,7 +996,7 @@ hr {
 	.homepage {
 		max-width: 600px;
 		width: 100%;
-		margin: 25px 0px 0px 0px;
+		margin: 40px 0px 0px 0px;
 	}
 
 	.homepage h1 {
@@ -1022,7 +1022,7 @@ hr {
 	.rrrr {
 		position: absolute;
 		left: 12px;
-		top: 400px;
+		top: 395px;
 	}
 
 	.rrrr img {
